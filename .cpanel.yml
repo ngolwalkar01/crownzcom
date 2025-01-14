@@ -1,9 +1,19 @@
---- 
-
 deployment:
-
   tasks:
+    - export DEPLOY_PATH=/home/proztptt/public_html/crownz
 
-  - export DEPLOYPATH=/home/proztptt/public_html/crownz
+    # Ensure the deployment path exists
+    - mkdir -p $DEPLOY_PATH
 
-  - /bin/cp * $DEPLOYPATH
+    # Copy the repository contents to the target path
+    - /bin/cp -R . $DEPLOY_PATH
+
+    # Set correct permissions for WordPress
+    - find $DEPLOY_PATH -type d -exec chmod 755 {} \;
+    - find $DEPLOY_PATH -type f -exec chmod 644 {} \;
+
+    # Set writable permissions for wp-content folder
+    - chmod -R 775 $DEPLOY_PATH/wp-content
+
+    # Optional: Clear old temporary files or caches
+    - rm -rf $DEPLOY_PATH/wp-content/cache/*

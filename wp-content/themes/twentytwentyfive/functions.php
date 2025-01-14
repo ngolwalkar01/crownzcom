@@ -156,3 +156,7 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
+
+add_action('wp_head', function(){
+	echo "Something!!";
+})

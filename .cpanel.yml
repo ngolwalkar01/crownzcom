@@ -1,0 +1,9 @@
+--- 
+
+deployment:
+
+  tasks:
+
+  - export DEPLOYPATH=/home/proztptt/public_html/crownzcom
+
+  - /bin/cp * $DEPLOYPATH

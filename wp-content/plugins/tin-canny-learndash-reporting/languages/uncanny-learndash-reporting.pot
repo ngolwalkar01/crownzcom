@@ -1,0 +1,3295 @@
+# Copyright (C) 2024 Uncanny Owl
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tin Canny Reporting for LearnDash 4.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tin-canny-learndash-reporting\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-08T17:42:34+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: uncanny-learndash-reporting\n"
+
+#. Plugin Name of the plugin
+#: src/blocks/blocks.php:196
+#: src/templates/admin-header.php:74
+#: src/uncanny-reporting/templates/header.php:69
+msgid "Tin Canny Reporting for LearnDash"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.uncannyowl.com/tin-can-lrs-learndash-report-toolkit/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add a Tin Can xAPI Learning Record Store (LRS) inside WordPress with powerful reporting tools for LearnDash and Tin Can statements."
+msgstr ""
+
+#. Author of the plugin
+msgid "Uncanny Owl"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.uncannyowl.com"
+msgstr ""
+
+#: src/blocks/blocks.php:68
+msgid "Tin Canny Content"
+msgstr ""
+
+#: src/blocks/blocks.php:69
+msgid "Upload and embed Tin Canny content such as Storyline, Captivate and iSpring files. Display the uploaded content in an iFrame, lightbox or new window."
+msgstr ""
+
+#: src/blocks/blocks.php:70
+msgid "Embed Tin Canny content and display the uploaded content in an iFrame, lightbox or new window."
+msgstr ""
+
+#: src/blocks/blocks.php:72
+msgid "Something went wrong. Please, try again"
+msgstr ""
+
+#: src/blocks/blocks.php:73
+msgid "Loading Library..."
+msgstr ""
+
+#: src/blocks/blocks.php:74
+msgid "We didn't find any content. Please, try uploading some"
+msgstr ""
+
+#: src/blocks/blocks.php:75
+msgid "ID:"
+msgstr ""
+
+#: src/blocks/blocks.php:76
+msgid "Iframe"
+msgstr ""
+
+#: src/blocks/blocks.php:77
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:385
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:26
+msgid "Lightbox"
+msgstr ""
+
+#: src/blocks/blocks.php:78
+#: src/reporting-admin-menu.php:723
+msgid "Page"
+msgstr ""
+
+#: src/blocks/blocks.php:80
+msgid "Fade"
+msgstr ""
+
+#: src/blocks/blocks.php:81
+msgid "Fade Scale"
+msgstr ""
+
+#: src/blocks/blocks.php:82
+msgid "Slide Left"
+msgstr ""
+
+#: src/blocks/blocks.php:83
+msgid "Slide Right"
+msgstr ""
+
+#: src/blocks/blocks.php:84
+msgid "Slide Up"
+msgstr ""
+
+#: src/blocks/blocks.php:85
+msgid "Slide Down"
+msgstr ""
+
+#: src/blocks/blocks.php:86
+msgid "Fall"
+msgstr ""
+
+#: src/blocks/blocks.php:87
+msgid "Open in the same window"
+msgstr ""
+
+#: src/blocks/blocks.php:88
+msgid "Open in a new window"
+msgstr ""
+
+#: src/blocks/blocks.php:89
+msgid "New tab"
+msgstr ""
+
+#: src/blocks/blocks.php:91
+#: src/blocks/blocks.php:126
+msgid "Upload"
+msgstr ""
+
+#: src/blocks/blocks.php:92
+msgid "Select from Library"
+msgstr ""
+
+#: src/blocks/blocks.php:93
+msgid "Select content"
+msgstr ""
+
+#: src/blocks/blocks.php:94
+#: src/uncanny-articulate-and-captivate/views/content_library.php:14
+msgid "Search content"
+msgstr ""
+
+#: src/blocks/blocks.php:95
+#: src/uncanny-articulate-and-captivate/views/content_library.php:20
+msgid "No results found"
+msgstr ""
+
+#: src/blocks/blocks.php:96
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:76
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:96
+msgid "Cancel"
+msgstr ""
+
+#: src/blocks/blocks.php:97
+#: src/blocks/src/tincanny-content/block.php:65
+#: src/blocks/src/tincanny-content/block.php:82
+msgid "Open"
+msgstr ""
+
+#: src/blocks/blocks.php:99
+msgid "Display Content In"
+msgstr ""
+
+#: src/blocks/blocks.php:100
+msgid "Open with"
+msgstr ""
+
+#: src/blocks/blocks.php:102
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:107
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:79
+msgid "Button"
+msgstr ""
+
+#: src/blocks/blocks.php:103
+msgid "Image"
+msgstr ""
+
+#: src/blocks/blocks.php:104
+msgid "Link"
+msgstr ""
+
+#: src/blocks/blocks.php:106
+msgid "Lightbox Settings"
+msgstr ""
+
+#: src/blocks/blocks.php:108
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:97
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:64
+msgid "Title"
+msgstr ""
+
+#: src/blocks/blocks.php:109
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:149
+msgid "Use global Height and Width setting."
+msgstr ""
+
+#: src/blocks/blocks.php:110
+msgid "Effect"
+msgstr ""
+
+#: src/blocks/blocks.php:111
+msgid "Iframe Settings"
+msgstr ""
+
+#: src/blocks/blocks.php:113
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:156
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:414
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:41
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:153
+msgid "Width"
+msgstr ""
+
+#: src/blocks/blocks.php:114
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:167
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:440
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:51
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:163
+msgid "Height"
+msgstr ""
+
+#: src/blocks/blocks.php:116
+msgid "Button Settings"
+msgstr ""
+
+#: src/blocks/blocks.php:118
+msgid "Text"
+msgstr ""
+
+#: src/blocks/blocks.php:119
+msgid "Size"
+msgstr ""
+
+#: src/blocks/blocks.php:121
+msgid "Small"
+msgstr ""
+
+#: src/blocks/blocks.php:122
+msgid "Normal"
+msgstr ""
+
+#: src/blocks/blocks.php:123
+msgid "Big"
+msgstr ""
+
+#: src/blocks/blocks.php:125
+msgid "Image Settings"
+msgstr ""
+
+#: src/blocks/blocks.php:128
+msgid "Media Library"
+msgstr ""
+
+#: src/blocks/blocks.php:129
+msgid "Link Settings"
+msgstr ""
+
+#: src/blocks/blocks.php:130
+msgid "Page Settings"
+msgstr ""
+
+#: src/blocks/blocks.php:132
+msgid "Open in"
+msgstr ""
+
+#: src/blocks/blocks.php:134
+msgid "Same window"
+msgstr ""
+
+#: src/blocks/blocks.php:135
+msgid "New window"
+msgstr ""
+
+#: src/blocks/blocks.php:137
+#: src/blocks/blocks.php:145
+msgid "Group Quiz Report Settings"
+msgstr ""
+
+#: src/blocks/blocks.php:139
+msgid "Tin Canny Course/User Report"
+msgstr ""
+
+#: src/blocks/blocks.php:140
+msgid "Embed Tin Canny course and user reports."
+msgstr ""
+
+#: src/blocks/blocks.php:142
+msgid "Tin Canny Group Quiz Report"
+msgstr ""
+
+#: src/blocks/blocks.php:143
+msgid "Embed Tin Canny report for group leaders that displays quiz results of group members."
+msgstr ""
+
+#: src/blocks/blocks.php:146
+msgid "User Quiz Report URL"
+msgstr ""
+
+#: src/blocks/blocks.php:148
+msgid "Tin Canny Individual Quiz Report"
+msgstr ""
+
+#: src/blocks/blocks.php:149
+msgid "Embed Tin Canny report that displays quiz results for the current user."
+msgstr ""
+
+#: src/blocks/blocks.php:151
+msgid "Tin Canny Lesson Report"
+msgstr ""
+
+#: src/blocks/blocks.php:152
+msgid "Embed a LearnDash lesson completion report."
+msgstr ""
+
+#: src/blocks/blocks.php:154
+msgid "Tin Canny Topic Report"
+msgstr ""
+
+#: src/blocks/blocks.php:155
+msgid "Embed a LearnDash topic completion report."
+msgstr ""
+
+#: src/boot.php:71
+msgid "Please contact your hosting company to update to php version 5.3+ and enable spl extensions."
+msgstr ""
+
+#: src/boot.php:235
+#: src/boot.php:263
+msgid "Tin Canny Reporting for LearnDash Support"
+msgstr ""
+
+#: src/boot.php:236
+#: src/templates/admin-header.php:41
+msgid "Help"
+msgstr ""
+
+#: src/boot.php:249
+msgid "Uncanny LearnDash Plugins"
+msgstr ""
+
+#: src/boot.php:250
+#: src/templates/admin-header.php:46
+msgid "LearnDash Plugins"
+msgstr ""
+
+#: src/boot.php:264
+#: src/templates/admin-header.php:56
+msgid "Site check"
+msgstr ""
+
+#. translators: %s: Settings title
+#: src/config.php:478
+msgid "Settings: %s"
+msgstr ""
+
+#: src/config.php:537
+msgid "Save Settings"
+msgstr ""
+
+#: src/config.php:578
+#: src/config.php:609
+msgid "Class for addon is not set."
+msgstr ""
+
+#: src/config.php:582
+#: src/config.php:613
+msgid "You must be an admin to save settings."
+msgstr ""
+
+#. translators: Trademarked term
+#: src/includes/install-automator/install-automator.php:86
+msgid "Try %s!"
+msgstr ""
+
+#: src/includes/install-automator/install-automator.php:88
+msgid "New"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:130
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:173
+msgid "Please reload the page and try again."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:140
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:157
+msgid "%s is already installed and active."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:340
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:348
+msgid "Could not install plugin. %s"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:357
+msgid "Could not install plugin. You do not have permission to install plugins."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:366
+msgid "Could not install plugin. You do not have permission to modify files."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:375
+msgid "Could not install plugin. A plugin url was not received. Please Reload the page."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:384
+msgid "Could not install plugin. File system credentials could not be verified. Please Reload the page."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:405
+msgid "Could not install plugin. The installer failed to initialize."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:428
+msgid "Could not install plugin. The download link failed. Please Reload the page."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:440
+msgid "Plugin has installed but failed to activate. Please activate manually on the plugins page."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:448
+msgid "Plugin has activated successfully."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:455
+msgid "Plugin has installed and activated successfully."
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:542
+msgid "Add a plugin slug"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:548
+msgid "Plugin not found on wordpress.org"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:555
+msgid "Install Uncanny Automator"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:557
+msgid "Install %s"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:565
+msgid "%s is active"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:570
+msgid "Activate Uncanny Automator"
+msgstr ""
+
+#: src/includes/install-automator/one-click-install/class-auto-plugin-install.php:572
+msgid "Activate %s"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:6
+msgid "Take your site to the next level with Uncanny Automator"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:48
+#: src/includes/install-automator/views/template-install-automator.php:134
+#: src/includes/install-automator/views/template-install-automator.php:197
+msgid "Uncanny Automator"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:50
+#: src/includes/install-automator/views/template-install-automator.php:198
+msgid "By the creators of Uncanny Toolkit"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:75
+msgid "How it works"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:79
+msgid "Use Uncanny Automator to connect LearnDash and Tin Canny Reporting to your favourite plugins and apps"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:79
+msgid "without hiring a developer to write custom code."
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:83
+msgid "Here are a few examples:"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:88
+msgid "When users earn a score of 50% or higher, mark a course complete."
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:90
+#: src/includes/install-automator/views/template-install-automator.php:103
+#: src/includes/install-automator/views/template-install-automator.php:113
+#: src/includes/install-automator/views/template-install-automator.php:123
+msgid "Requires"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:101
+msgid "When users record a Passed verb in Storyline, add a tag in ActiveCampaign."
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:111
+msgid "When users achieve a Completed verb in H5P, add them to a BuddyBoss social group."
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:121
+msgid "When users earn a score less than 50% in iSpring, enroll them in a remedial course."
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:134
+msgid "supports"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:134
+msgid "all of the most popular WordPress plugins"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:134
+msgid "and we're adding new integrations all the time. The possibilities are limitless."
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:138
+msgid "Choose any combination of triggers"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:142
+msgid "Users complete a lesson"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:143
+msgid "Users are added to a group"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:144
+msgid "Users fill out a form"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:145
+msgid "Users register for an event"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:146
+msgid "Users buy a product"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:147
+msgid "Users complete a course"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:148
+msgid "Users fail a quiz"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:156
+msgid "...to initiate any combination of actions"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:160
+msgid "Add users to a group"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:161
+msgid "Send an email"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:162
+msgid "Mark a lesson complete"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:163
+msgid "Unlock a new course"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:164
+msgid "Reset course progress"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:165
+msgid "Trigger a Zapier webhook"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:166
+msgid "Add a tag in Infusionsoft"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:187
+msgid "Build better experiences for your users while saving money on custom development. And save"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:188
+msgid "your"
+msgstr ""
+
+#: src/includes/install-automator/views/template-install-automator.php:189
+msgid "time by automating routine tasks — all with no code."
+msgstr ""
+
+#: src/includes/licensing.php:252
+msgid "Renew now"
+msgstr ""
+
+#. translators: %1$s is the plugin name, %2$s is the expiry date, %3$s is the renew link
+#: src/includes/licensing.php:258
+msgctxt "License expiry notice"
+msgid "Your license for %1$s has expired on %2$s. %3$s to continue to receive updates and support."
+msgstr ""
+
+#: src/includes/licensing.php:269
+msgid "%1$s your copy of %2$s to get access to automatic updates and support. Don't have a license key? Click %3$s to buy one."
+msgstr ""
+
+#: src/includes/licensing.php:270
+msgid "Activate"
+msgstr ""
+
+#: src/includes/licensing.php:272
+#: src/templates/admin-license.php:91
+msgid "here"
+msgstr ""
+
+#: src/includes/licensing.php:479
+#: src/includes/licensing.php:520
+#: src/includes/licensing.php:594
+msgid "An error occurred, please try again."
+msgstr ""
+
+#. translators: %s: date
+#: src/includes/licensing.php:492
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: src/includes/licensing.php:498
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: src/includes/licensing.php:502
+msgid "Invalid license."
+msgstr ""
+
+#: src/includes/licensing.php:507
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: %s: plugin name
+#: src/includes/licensing.php:512
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: src/includes/licensing.php:516
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: src/includes/licensing.php:678
+msgid "License is activated."
+msgstr ""
+
+#: src/includes/licensing.php:779
+msgid "The shell_exec function is not enabled. Please contact your host and request that it be enabled for Tin Canny uploads."
+msgstr ""
+
+#: src/includes/tin-canny-protection.php:252
+msgid "Something went wrong"
+msgstr ""
+
+#: src/includes/TinCan_Content_List_Table.php:185
+msgid "Upload Content"
+msgstr ""
+
+#: src/reporting-admin-menu.php:73
+#: src/reporting-admin-menu.php:1206
+#: src/uncanny-reporting/templates/groups-drop-down.php:19
+msgid "Group"
+msgstr ""
+
+#: src/reporting-admin-menu.php:79
+#: src/reporting-admin-menu.php:1207
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:65
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:67
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:67
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:69
+msgid "User"
+msgstr ""
+
+#: src/reporting-admin-menu.php:85
+#: src/reporting-admin-menu.php:1208
+msgid "Course"
+msgstr ""
+
+#: src/reporting-admin-menu.php:91
+#: src/reporting-admin-menu.php:710
+#: src/reporting-admin-menu.php:1209
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:102
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:103
+msgid "Module"
+msgstr ""
+
+#: src/reporting-admin-menu.php:97
+#: src/uncanny-question-analysis-report/question-analysis-report.php:199
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:120
+msgid "Question"
+msgstr ""
+
+#: src/reporting-admin-menu.php:103
+#: src/reporting-admin-menu.php:713
+#: src/reporting-admin-menu.php:1212
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:133
+msgid "Result"
+msgstr ""
+
+#: src/reporting-admin-menu.php:109
+#: src/reporting-admin-menu.php:746
+#: src/uncanny-reporting/quiz-module-reports.php:613
+#: src/uncanny-reporting/quiz-module-reports.php:627
+#: src/uncanny-reporting/quiz-module-reports.php:1009
+#: src/uncanny-reporting/quiz-module-reports.php:1034
+#: src/uncanny-reporting/quiz-module-reports.php:1056
+msgid "Score"
+msgstr ""
+
+#: src/reporting-admin-menu.php:115
+#: src/reporting-admin-menu.php:1214
+msgid "Date Time"
+msgstr ""
+
+#: src/reporting-admin-menu.php:121
+msgid "Choices"
+msgstr ""
+
+#: src/reporting-admin-menu.php:127
+msgid "Correct Response"
+msgstr ""
+
+#: src/reporting-admin-menu.php:133
+msgid "User Response"
+msgstr ""
+
+#: src/reporting-admin-menu.php:209
+msgctxt "uncanny-learndash-reporting"
+msgid "Tin Canny Reporting for LearnDash"
+msgstr ""
+
+#: src/reporting-admin-menu.php:210
+msgctxt "uncanny-learndash-reporting"
+msgid "Tin Canny Reporting"
+msgstr ""
+
+#: src/reporting-admin-menu.php:313
+msgid "Tin Canny Reporting"
+msgstr ""
+
+#: src/reporting-admin-menu.php:562
+msgid "Data not right?"
+msgstr ""
+
+#. translators: %s is a link
+#: src/reporting-admin-menu.php:564
+msgid "Try running the %s."
+msgstr ""
+
+#: src/reporting-admin-menu.php:565
+msgid "LearnDash Data Upgrades"
+msgstr ""
+
+#: src/reporting-admin-menu.php:566
+#: src/uncanny-tincan/classes/Init.php:293
+msgid "All Questions"
+msgstr ""
+
+#: src/reporting-admin-menu.php:568
+msgctxt "Dropdown"
+msgid "The results could not be loaded."
+msgstr ""
+
+#: src/reporting-admin-menu.php:570
+msgctxt "Dropdown"
+msgid "Please delete 1 character"
+msgstr ""
+
+#. translators: %s is a character count
+#: src/reporting-admin-menu.php:572
+msgctxt "Dropdown"
+msgid "Please delete %s characters"
+msgstr ""
+
+#. translators: %s is a character count
+#: src/reporting-admin-menu.php:575
+msgctxt "Dropdown"
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: src/reporting-admin-menu.php:576
+msgctxt "Dropdown"
+msgid "Loading more results..."
+msgstr ""
+
+#: src/reporting-admin-menu.php:578
+msgctxt "Dropdown"
+msgid "You can only select 1 item"
+msgstr ""
+
+#. translators: %s is a number of items
+#: src/reporting-admin-menu.php:580
+msgctxt "Dropdown"
+msgid "You can only select %s items"
+msgstr ""
+
+#: src/reporting-admin-menu.php:582
+msgctxt "Dropdown"
+msgid "No results found"
+msgstr ""
+
+#: src/reporting-admin-menu.php:583
+msgctxt "Dropdown"
+msgid "Searching..."
+msgstr ""
+
+#: src/reporting-admin-menu.php:584
+msgctxt "Dropdown"
+msgid "Remove all items"
+msgstr ""
+
+#: src/reporting-admin-menu.php:587
+msgctxt "Table"
+msgid "Processing..."
+msgstr ""
+
+#: src/reporting-admin-menu.php:588
+#: src/reporting-admin-menu.php:589
+msgctxt "Table"
+msgid "Search"
+msgstr ""
+
+#. translators: %s is a number
+#: src/reporting-admin-menu.php:591
+#: src/uncanny-reporting/group-quiz-report.php:624
+#: src/uncanny-reporting/lesson-topic-reports.php:258
+msgctxt "Table"
+msgid "Show %s entries"
+msgstr ""
+
+#. translators: Both %1$s and %2$s are numbers
+#: src/reporting-admin-menu.php:593
+msgctxt "Table"
+msgid "Showing page %1$s of %2$s"
+msgstr ""
+
+#: src/reporting-admin-menu.php:594
+msgctxt "Table"
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#. translators: %s is a number
+#: src/reporting-admin-menu.php:596
+msgctxt "Table"
+msgid "(filtered from %s total entries)"
+msgstr ""
+
+#: src/reporting-admin-menu.php:597
+msgctxt "Table"
+msgid "Loading"
+msgstr ""
+
+#: src/reporting-admin-menu.php:598
+msgctxt "Table"
+msgid "No matching records found"
+msgstr ""
+
+#: src/reporting-admin-menu.php:599
+msgctxt "Table"
+msgid "No data available in table"
+msgstr ""
+
+#. translators: Table pagination
+#: src/reporting-admin-menu.php:602
+msgctxt "Table"
+msgid "First"
+msgstr ""
+
+#. translators: Table pagination
+#: src/reporting-admin-menu.php:604
+msgctxt "Table"
+msgid "Previous"
+msgstr ""
+
+#. translators: Table pagination
+#: src/reporting-admin-menu.php:606
+msgctxt "Table"
+msgid "Next"
+msgstr ""
+
+#. translators: Table pagination
+#: src/reporting-admin-menu.php:608
+msgctxt "Table"
+msgid "Last"
+msgstr ""
+
+#: src/reporting-admin-menu.php:610
+msgctxt "Table"
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: src/reporting-admin-menu.php:611
+msgctxt "Table"
+msgid ": activate to sort column descending"
+msgstr ""
+
+#. translators: Table button
+#: src/reporting-admin-menu.php:614
+msgctxt "Table"
+msgid "CSV export"
+msgstr ""
+
+#. translators: Table button
+#: src/reporting-admin-menu.php:616
+msgctxt "Table"
+msgid "PDF export"
+msgstr ""
+
+#: src/reporting-admin-menu.php:670
+#: src/uncanny-reporting/reporting-api.php:1987
+#: src/uncanny-reporting/reporting-api.php:1995
+msgid "In Progress"
+msgstr ""
+
+#: src/reporting-admin-menu.php:671
+#: src/uncanny-reporting/lesson-topic-reports.php:220
+#: src/uncanny-reporting/lesson-topic-reports.php:283
+#: src/uncanny-reporting/reporting-api.php:1739
+#: src/uncanny-reporting/reporting-api.php:1985
+msgid "Completed"
+msgstr ""
+
+#: src/reporting-admin-menu.php:672
+#: src/uncanny-reporting/reporting-api.php:2003
+msgid "Not Started"
+msgstr ""
+
+#: src/reporting-admin-menu.php:673
+msgid "No Data"
+msgstr ""
+
+#: src/reporting-admin-menu.php:675
+msgid "Are you sure you want to permanently delete all Tin Can data? This cannot be undone."
+msgstr ""
+
+#: src/reporting-admin-menu.php:676
+msgid "Are you sure you want to permanently delete all Bookmark data? This cannot be undone."
+msgstr ""
+
+#: src/reporting-admin-menu.php:678
+#: src/uncanny-question-analysis-report/question-analysis-report.php:201
+#: src/uncanny-question-analysis-report/question-analysis-report.php:829
+#: src/uncanny-reporting/reporting-api.php:2005
+msgid "%"
+msgstr ""
+
+#: src/reporting-admin-menu.php:680
+msgid "Please select your criteria to filter the Tin Can data."
+msgstr ""
+
+#: src/reporting-admin-menu.php:681
+msgid "Please select your criteria to filter the xAPI Quiz data."
+msgstr ""
+
+#: src/reporting-admin-menu.php:683
+msgid "Enrolled"
+msgstr ""
+
+#: src/reporting-admin-menu.php:684
+msgid "Avg Time to Complete"
+msgstr ""
+
+#: src/reporting-admin-menu.php:685
+msgid "Avg Time Spent"
+msgstr ""
+
+#: src/reporting-admin-menu.php:686
+msgid "% Complete"
+msgstr ""
+
+#: src/reporting-admin-menu.php:687
+msgid "Certificate Link"
+msgstr ""
+
+#: src/reporting-admin-menu.php:688
+msgid "Users Enrolled"
+msgstr ""
+
+#: src/reporting-admin-menu.php:689
+msgid "Average Time to Complete"
+msgstr ""
+
+#: src/reporting-admin-menu.php:690
+msgid "Average "
+msgstr ""
+
+#: src/reporting-admin-menu.php:691
+#: src/reporting-admin-menu.php:705
+#: src/uncanny-reporting/quiz-module-reports.php:611
+#: src/uncanny-reporting/quiz-module-reports.php:625
+msgid "Name"
+msgstr ""
+
+#: src/reporting-admin-menu.php:692
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:145
+#: src/uncanny-reporting/group-quiz-report.php:586
+#: src/uncanny-reporting/lesson-topic-reports.php:216
+msgid "First Name"
+msgstr ""
+
+#: src/reporting-admin-menu.php:693
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:153
+#: src/uncanny-reporting/group-quiz-report.php:587
+#: src/uncanny-reporting/lesson-topic-reports.php:217
+msgid "Last Name"
+msgstr ""
+
+#: src/reporting-admin-menu.php:694
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:161
+#: src/uncanny-reporting/group-quiz-report.php:585
+#: src/uncanny-reporting/lesson-topic-reports.php:215
+msgid "Username"
+msgstr ""
+
+#: src/reporting-admin-menu.php:695
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:169
+msgid "Email Address"
+msgstr ""
+
+#: src/reporting-admin-menu.php:696
+msgid "Course Enrolled"
+msgstr ""
+
+#. translators: %s is the "Course" label
+#: src/reporting-admin-menu.php:698
+msgid "%s Average"
+msgstr ""
+
+#: src/reporting-admin-menu.php:699
+msgid "Completion Date"
+msgstr ""
+
+#: src/reporting-admin-menu.php:700
+msgid "Time to Complete"
+msgstr ""
+
+#: src/reporting-admin-menu.php:701
+msgid "Time Spent"
+msgstr ""
+
+#: src/reporting-admin-menu.php:702
+#: src/uncanny-reporting/lesson-topic-reports.php:219
+msgid "Status"
+msgstr ""
+
+#. translators: %s is the "Lesson" label
+#: src/reporting-admin-menu.php:704
+msgid "Associated %s"
+msgstr ""
+
+#: src/reporting-admin-menu.php:706
+msgid "Date Completed"
+msgstr ""
+
+#: src/reporting-admin-menu.php:707
+msgid "Assignment Name"
+msgstr ""
+
+#: src/reporting-admin-menu.php:708
+msgid "Approval"
+msgstr ""
+
+#: src/reporting-admin-menu.php:709
+msgid "Submitted On"
+msgstr ""
+
+#: src/reporting-admin-menu.php:711
+#: src/reporting-admin-menu.php:1210
+msgid "Target"
+msgstr ""
+
+#: src/reporting-admin-menu.php:712
+#: src/reporting-admin-menu.php:1211
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:119
+msgid "Action"
+msgstr ""
+
+#: src/reporting-admin-menu.php:714
+#: src/uncanny-reporting/group-quiz-report.php:119
+#: src/uncanny-reporting/group-quiz-report.php:595
+#: src/uncanny-reporting/quiz-module-reports.php:615
+#: src/uncanny-reporting/quiz-module-reports.php:628
+#: src/uncanny-reporting/quiz-module-reports.php:1011
+#: src/uncanny-reporting/quiz-module-reports.php:1035
+#: src/uncanny-reporting/quiz-module-reports.php:1057
+msgid "Date"
+msgstr ""
+
+#: src/reporting-admin-menu.php:715
+msgid "There are no activities to report."
+msgstr ""
+
+#: src/reporting-admin-menu.php:716
+msgid "CSV Export"
+msgstr ""
+
+#: src/reporting-admin-menu.php:717
+msgid "Excel Export"
+msgstr ""
+
+#. translators: %s is the course label
+#: src/reporting-admin-menu.php:719
+msgctxt "%s is the \"Course\" label"
+msgid "%s ID: "
+msgstr ""
+
+#: src/reporting-admin-menu.php:720
+msgid "Not Complete"
+msgstr ""
+
+#: src/reporting-admin-menu.php:721
+#: src/uncanny-reporting/reporting-api.php:1846
+msgid "Not Approved"
+msgstr ""
+
+#: src/reporting-admin-menu.php:722
+#: src/uncanny-reporting/reporting-api.php:1844
+msgid "Approved"
+msgstr ""
+
+#: src/reporting-admin-menu.php:724
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:143
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:159
+msgid "View"
+msgstr ""
+
+#: src/reporting-admin-menu.php:726
+msgid " Summary"
+msgstr ""
+
+#: src/reporting-admin-menu.php:727
+msgid "< Users Overview"
+msgstr ""
+
+#: src/reporting-admin-menu.php:728
+msgid "< User Overview"
+msgstr ""
+
+#: src/reporting-admin-menu.php:729
+msgid "< User's "
+msgstr ""
+
+#: src/reporting-admin-menu.php:730
+msgid " Overview"
+msgstr ""
+
+#: src/reporting-admin-menu.php:731
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#. translators: %1$s is the start number, %2$s is the end number, and %3$s is the total number of entries
+#: src/reporting-admin-menu.php:732
+#: src/uncanny-question-analysis-report/question-analysis-report.php:155
+#: src/uncanny-reporting/group-quiz-report.php:615
+#: src/uncanny-reporting/lesson-topic-reports.php:250
+#: src/uncanny-reporting/quiz-module-reports.php:1113
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: src/reporting-admin-menu.php:733
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: src/reporting-admin-menu.php:734
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#. translators: %s is the total number of entries
+#: src/reporting-admin-menu.php:735
+#: src/uncanny-question-analysis-report/question-analysis-report.php:158
+#: src/uncanny-reporting/group-quiz-report.php:627
+#: src/uncanny-reporting/lesson-topic-reports.php:261
+#: src/uncanny-reporting/quiz-module-reports.php:1119
+msgid "Loading..."
+msgstr ""
+
+#: src/reporting-admin-menu.php:736
+#: src/uncanny-question-analysis-report/question-analysis-report.php:159
+#: src/uncanny-reporting/group-quiz-report.php:628
+#: src/uncanny-reporting/lesson-topic-reports.php:262
+#: src/uncanny-reporting/quiz-module-reports.php:1120
+msgid "Processing..."
+msgstr ""
+
+#: src/reporting-admin-menu.php:737
+msgid "Search:"
+msgstr ""
+
+#: src/reporting-admin-menu.php:738
+#: src/uncanny-question-analysis-report/question-analysis-report.php:161
+#: src/uncanny-reporting/lesson-topic-reports.php:264
+#: src/uncanny-reporting/quiz-module-reports.php:1122
+msgid "No matching records found"
+msgstr ""
+
+#: src/reporting-admin-menu.php:739
+#: src/uncanny-question-analysis-report/question-analysis-report.php:163
+#: src/uncanny-reporting/group-quiz-report.php:633
+#: src/uncanny-reporting/lesson-topic-reports.php:266
+#: src/uncanny-reporting/quiz-module-reports.php:1124
+msgid "First"
+msgstr ""
+
+#: src/reporting-admin-menu.php:740
+#: src/uncanny-question-analysis-report/question-analysis-report.php:164
+#: src/uncanny-reporting/group-quiz-report.php:634
+#: src/uncanny-reporting/lesson-topic-reports.php:267
+#: src/uncanny-reporting/quiz-module-reports.php:1125
+msgid "Last"
+msgstr ""
+
+#: src/reporting-admin-menu.php:741
+#: src/uncanny-question-analysis-report/question-analysis-report.php:165
+#: src/uncanny-reporting/group-quiz-report.php:635
+#: src/uncanny-reporting/lesson-topic-reports.php:268
+#: src/uncanny-reporting/quiz-module-reports.php:1126
+msgid "Next"
+msgstr ""
+
+#: src/reporting-admin-menu.php:742
+#: src/uncanny-question-analysis-report/question-analysis-report.php:166
+#: src/uncanny-reporting/group-quiz-report.php:636
+#: src/uncanny-reporting/lesson-topic-reports.php:269
+#: src/uncanny-reporting/quiz-module-reports.php:1127
+msgid "Previous"
+msgstr ""
+
+#: src/reporting-admin-menu.php:743
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: src/reporting-admin-menu.php:744
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: src/reporting-admin-menu.php:745
+#: src/uncanny-reporting/quiz-module-reports.php:614
+#: src/uncanny-reporting/quiz-module-reports.php:1010
+msgid "Detailed Report"
+msgstr ""
+
+#: src/reporting-admin-menu.php:747
+msgid "Order"
+msgstr ""
+
+#. translators: %s is the quiz title
+#: src/reporting-admin-menu.php:749
+msgctxt "%s is the \"Quiz\" label"
+msgid "Avg %s Score"
+msgstr ""
+
+#. translators: %s is the course title
+#: src/reporting-admin-menu.php:751
+msgctxt "%s is the \"Courses\" label"
+msgid "%s Enrolled"
+msgstr ""
+
+#. translators: %s is the lesson title
+#: src/reporting-admin-menu.php:753
+msgctxt "%s is the \"Lesson\" label"
+msgid "%s Name"
+msgstr ""
+
+#. translators: %s is the topic title
+#: src/reporting-admin-menu.php:755
+msgctxt "%s is the \"Topic\" label"
+msgid "%s Name"
+msgstr ""
+
+#. translators: %s is the quiz title
+#: src/reporting-admin-menu.php:757
+msgctxt "%s is the \"Quiz\" label"
+msgid "%s Name"
+msgstr ""
+
+#: src/reporting-admin-menu.php:758
+msgid "Details"
+msgstr ""
+
+#: src/reporting-admin-menu.php:759
+msgid "See details"
+msgstr ""
+
+#: src/reporting-admin-menu.php:760
+#: src/uncanny-question-analysis-report/question-analysis-report.php:160
+#: src/uncanny-reporting/quiz-module-reports.php:1121
+msgid "Search..."
+msgstr ""
+
+#. translators: %s is the course title
+#: src/reporting-admin-menu.php:762
+msgctxt "%s is the \"Courses\" label"
+msgid "%s Overview"
+msgstr ""
+
+#: src/reporting-admin-menu.php:763
+#: src/reporting-admin-menu.php:774
+#: src/uncanny-reporting/templates/header.php:25
+#: src/uncanny-reporting/templates/user-report-tab.php:20
+msgid "User Report"
+msgstr ""
+
+#: src/reporting-admin-menu.php:764
+#: src/uncanny-reporting/templates/user-report-tab.php:32
+msgid "Users"
+msgstr ""
+
+#. translators: %s is the user ID
+#: src/reporting-admin-menu.php:766
+msgid "ID: %s"
+msgstr ""
+
+#: src/reporting-admin-menu.php:767
+msgid "Recent Activities"
+msgstr ""
+
+#: src/reporting-admin-menu.php:768
+#: src/templates/admin-header.php:26
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:21
+msgid "Reports"
+msgstr ""
+
+#. translators: %s is the "Courses" label
+#: src/reporting-admin-menu.php:770
+msgctxt "%s is the \"Courses\" label"
+msgid "Most Completed %s"
+msgstr ""
+
+#. translators: %s is the "Courses" label
+#. translators: %s is the "Course" label
+#: src/reporting-admin-menu.php:772
+#: src/uncanny-reporting/templates/course-report-tab.php:21
+#: src/uncanny-reporting/templates/header.php:18
+msgctxt "%s is the \"Course\" label"
+msgid "%s Report"
+msgstr ""
+
+#: src/reporting-admin-menu.php:773
+msgid "A summary-level overview of LearnDash courses and user progress"
+msgstr ""
+
+#: src/reporting-admin-menu.php:775
+msgid "Monitor progress for individual users enrolled in LearnDash courses"
+msgstr ""
+
+#: src/reporting-admin-menu.php:776
+#: src/uncanny-reporting/templates/header.php:34
+msgid "Tin Can Report"
+msgstr ""
+
+#: src/reporting-admin-menu.php:777
+msgid "Detailed records of user activity in H5P and uploaded modules"
+msgstr ""
+
+#. translators: %s is the "Courses" label
+#: src/reporting-admin-menu.php:779
+msgctxt "%s is the \"Courses\" label"
+msgid "See all %s"
+msgstr ""
+
+#: src/reporting-admin-menu.php:780
+msgid "No completions registered"
+msgstr ""
+
+#: src/reporting-admin-menu.php:781
+#: src/uncanny-reporting/group-quiz-report.php:735
+#: src/uncanny-reporting/lesson-topic-reports.php:386
+#: src/uncanny-reporting/templates/course-report-tab.php:46
+#: src/uncanny-reporting/templates/course-report-tab.php:75
+#: src/uncanny-reporting/templates/course-report-tab.php:99
+#: src/uncanny-reporting/templates/course-report-tab.php:140
+#: src/uncanny-reporting/templates/user-report-tab.php:42
+#: src/uncanny-reporting/templates/user-report-tab.php:86
+#: src/uncanny-reporting/templates/user-report-tab.php:112
+#: src/uncanny-reporting/templates/user-report-tab.php:143
+#: src/uncanny-reporting/templates/user-report-tab.php:189
+#: src/uncanny-reporting/templates/user-report-tab.php:213
+#: src/uncanny-reporting/templates/user-report-tab.php:237
+#: src/uncanny-reporting/templates/user-report-tab.php:261
+#: src/uncanny-reporting/templates/user-report-tab.php:285
+msgid "Loading"
+msgstr ""
+
+#: src/reporting-admin-menu.php:782
+msgid "No activity registered"
+msgstr ""
+
+#: src/reporting-admin-menu.php:783
+msgid "No enrolled users"
+msgstr ""
+
+#. translators: %s is the "Courses" label
+#: src/reporting-admin-menu.php:785
+msgctxt "%s is the \"Course\" label"
+msgid "%s Completions"
+msgstr ""
+
+#: src/reporting-admin-menu.php:786
+msgid "Tin Can Statements"
+msgstr ""
+
+#. translators: %s is the number of completions
+#: src/reporting-admin-menu.php:788
+msgctxt "%s is a number"
+msgid "%s completion(s)"
+msgstr ""
+
+#. translators: %s is the number of statements
+#: src/reporting-admin-menu.php:790
+msgctxt "%s is a number"
+msgid "%s statement(s)"
+msgstr ""
+
+#: src/reporting-admin-menu.php:791
+msgctxt "Customize columns"
+msgid "Customize columns"
+msgstr ""
+
+#: src/reporting-admin-menu.php:792
+msgctxt "Customize columns"
+msgid "Hide customize columns"
+msgstr ""
+
+#: src/reporting-admin-menu.php:793
+msgid "Show all"
+msgstr ""
+
+#: src/reporting-admin-menu.php:794
+#: src/uncanny-articulate-and-captivate/classes/Admin/ManageContent.php:74
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:70
+msgid "ID"
+msgstr ""
+
+#: src/reporting-admin-menu.php:819
+msgid "You must be logged in to view this report."
+msgstr ""
+
+#: src/reporting-admin-menu.php:825
+msgid "You do not have access to this report"
+msgstr ""
+
+#: src/reporting-admin-menu.php:870
+msgid "This report is only accessible by group leaders and administrators."
+msgstr ""
+
+#: src/reporting-admin-menu.php:876
+#: src/uncanny-reporting/quiz-module-reports.php:478
+msgid "Group Leader has no groups assigned."
+msgstr ""
+
+#: src/reporting-admin-menu.php:1213
+msgid "Success"
+msgstr ""
+
+#: src/reporting-admin-menu.php:1366
+msgid "This class is not configured properly. Contact Support for assistance."
+msgstr ""
+
+#: src/reporting-admin-menu.php:1429
+msgid " is needed for this add-on"
+msgstr ""
+
+#: src/reporting-admin-menu.php:1434
+msgid "Activate "
+msgstr ""
+
+#: src/reporting-admin-menu.php:1665
+#: src/reporting-admin-menu.php:1666
+#: src/reporting-admin-menu.php:1794
+#: src/reporting-admin-menu.php:1795
+msgid "n/a"
+msgstr ""
+
+#: src/reporting-admin-menu.php:1968
+#: src/reporting-admin-menu.php:2156
+msgid "Per Page"
+msgstr ""
+
+#: src/reporting-admin-menu.php:2012
+#: src/reporting-admin-menu.php:2202
+msgid "Export To CSV"
+msgstr ""
+
+#: src/reporting-admin-menu.php:2101
+msgid "To customize the columns that are displayed, use the Screen Options tab in the top right."
+msgstr ""
+
+#: src/templates/admin-header.php:31
+#: src/templates/admin-header.php:64
+msgid "Manage content"
+msgstr ""
+
+#: src/templates/admin-header.php:36
+#: tin-canny-learndash-reporting.php:444
+msgid "Settings"
+msgstr ""
+
+#: src/templates/admin-header.php:51
+msgid "License activation"
+msgstr ""
+
+#: src/templates/admin-header.php:77
+#: src/uncanny-reporting/templates/header.php:72
+msgid "by"
+msgstr ""
+
+#: src/templates/admin-header.php:136
+#: src/uncanny-reporting/templates/header.php:126
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: src/templates/admin-header.php:139
+#: src/uncanny-reporting/templates/header.php:129
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: src/templates/admin-header.php:142
+#: src/uncanny-reporting/templates/header.php:132
+msgid "Follow us on LinkedIn"
+msgstr ""
+
+#: src/templates/admin-kb-articles.php:47
+msgid "I can't find the answer to my question."
+msgstr ""
+
+#: src/templates/admin-license.php:60
+msgid "Your license is active"
+msgstr ""
+
+#: src/templates/admin-license.php:62
+msgid "Your license has expired!"
+msgstr ""
+
+#: src/templates/admin-license.php:65
+#: src/templates/admin-license.php:135
+#: src/templates/admin-license.php:163
+msgid "Enter your license key"
+msgstr ""
+
+#: src/templates/admin-license.php:67
+msgid "Your license is not active"
+msgstr ""
+
+#: src/templates/admin-license.php:83
+msgctxt "Your license has expired. Please renew your license to get instant access to updates and support."
+msgid "You must renew your license to get access to plugin updates and support. Click %s to renew your license."
+msgstr ""
+
+#: src/templates/admin-license.php:98
+msgctxt "Your license has disabled. Please renew your license to get instant access to updates and support."
+msgid "Your license is disabled. Please %s to get instant access to updates and support."
+msgstr ""
+
+#: src/templates/admin-license.php:104
+msgctxt "Your license has expired. Please renew your license to get instant access to updates and support."
+msgid "renew your license"
+msgstr ""
+
+#: src/templates/admin-license.php:118
+msgid "Please enter a valid license code and click \"Activate now\"."
+msgstr ""
+
+#: src/templates/admin-license.php:142
+msgid "Lifetime"
+msgstr ""
+
+#: src/templates/admin-license.php:146
+msgid "Expires"
+msgstr ""
+
+#: src/templates/admin-license.php:152
+msgid "Activations left:"
+msgstr ""
+
+#: src/templates/admin-license.php:169
+msgid "Expired"
+msgstr ""
+
+#: src/templates/admin-license.php:184
+#: src/templates/admin-license.php:236
+msgid "Deactivate License"
+msgstr ""
+
+#: src/templates/admin-license.php:191
+#: src/templates/admin-license.php:243
+msgid "Activate now"
+msgstr ""
+
+#: src/templates/admin-license.php:196
+#: src/templates/admin-license.php:248
+msgid "Buy license"
+msgstr ""
+
+#: src/templates/admin-license.php:206
+msgid "Need help?"
+msgstr ""
+
+#: src/templates/admin-license.php:213
+msgid "Where to get my license key"
+msgstr ""
+
+#: src/templates/admin-license.php:218
+msgid "Buy a new license"
+msgstr ""
+
+#: src/templates/admin-license.php:223
+msgid "Knowledge base"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:52
+msgid "Your ticket has been created. Someone at Uncanny Owl will contact you regarding your issue."
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:56
+msgid "Dismiss this notice."
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:67
+msgid "Submit a ticket"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:81
+msgid "Full name"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:90
+#: src/uncanny-reporting/group-quiz-report.php:588
+#: src/uncanny-reporting/lesson-topic-reports.php:218
+msgid "Email"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:99
+msgid "Site URL"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:108
+msgid "License Key"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:117
+msgid "Subject"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:126
+msgid "Message"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:134
+msgid "Send site data"
+msgstr ""
+
+#. translators: %s is the "My Account" page link
+#: src/templates/admin-send-ticket.php:142
+msgctxt "%s is the \"My Account\" page"
+msgid "Emails must be enabled on your site to create a ticket using this form. If you don't receive a confirmation email shortly after submitting this form, please log the ticket through your %s page."
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:147
+msgid "My Account"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:153
+msgid "Create ticket"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:160
+msgid "Site data"
+msgstr ""
+
+#: src/templates/admin-site-check.php:25
+#: src/templates/admin-siteinfo.php:91
+msgid "WordPress Minimum Requirements"
+msgstr ""
+
+#: src/templates/admin-site-check.php:32
+#: src/templates/admin-site-check.php:65
+#: src/templates/admin-site-check.php:81
+msgid "HTTP/HTTPS Check"
+msgstr ""
+
+#: src/templates/admin-site-check.php:33
+msgid ""
+"Check that your WordPress Address and Site Address in %1$sGeneral Settings%2$s match.\n"
+"\t\t\t\t\t\t\t\t\tIf they don't match, you may have problems loading content or receiving xAPI statements.\n"
+"\t\t\t\t\t\t\t\t\tAlso make sure that if users visit your site using https:// URLs, both values on the Settings\n"
+"\t\t\t\t\t\t\t\t\tpage also use https://."
+msgstr ""
+
+#: src/templates/admin-site-check.php:67
+msgid ""
+"<strong style=\"color: red;\">Failed</strong><br />\n"
+"\t\t\t\tCheck that your WordPress Address and Site Address in %1$sGeneral Settings%2$s match.\n"
+"\t\t\t\t\t\t\t\t\tIf they don't match, you may have problems loading content or receiving xAPI statements.\n"
+"\t\t\t\t\t\t\t\t\tAlso make sure that if users visit your site using https:// URLs, both values on the Settings\n"
+"\t\t\t\t\t\t\t\t\tpage also use https://."
+msgstr ""
+
+#: src/templates/admin-site-check.php:82
+#: src/templates/admin-site-check.php:124
+msgid "<strong style=\"color: green;\">Passed</strong>"
+msgstr ""
+
+#: src/templates/admin-site-check.php:96
+msgid "Permalink Settings"
+msgstr ""
+
+#: src/templates/admin-site-check.php:97
+msgid "Tin Canny will not work with %1$syour site's permalinks%2$s set to <i>Plain</i>. We recommend <i>Post Name</i>, which is also beneficial for SEO."
+msgstr ""
+
+#: src/templates/admin-site-check.php:110
+msgid "Permalink Settings Check"
+msgstr ""
+
+#: src/templates/admin-site-check.php:112
+msgid ""
+"<strong style=\"color: red;\">Failed</strong><br />\n"
+"\t\t\t\tYour site's permalinks are set to <i>Plain</i>. Change them to <i>Post Name</i> on your site's %1$sPermalink%2$s page"
+msgstr ""
+
+#: src/templates/admin-site-check.php:123
+msgid "Permalink Status"
+msgstr ""
+
+#: src/templates/admin-site-check.php:136
+msgid "Endpoint Availability"
+msgstr ""
+
+#: src/templates/admin-site-check.php:137
+msgid "Checks that the xAPI endpoint is reachable. If not, xAPI statements may not be recorded."
+msgstr ""
+
+#: src/templates/admin-site-check.php:146
+msgid "Endpoint Availability Check"
+msgstr ""
+
+#: src/templates/admin-site-check.php:147
+msgid "<span id=\"endpoint_status\">Checking...</span> <br /><button id=\"endpoint_recheck\">Re-check</button>    "
+msgstr ""
+
+#: src/templates/admin-site-check.php:165
+msgid "Mod Security Check"
+msgstr ""
+
+#: src/templates/admin-site-check.php:166
+msgid "Checks security module is allowing endpoints. If not, xAPI statements may not be recorded."
+msgstr ""
+
+#: src/templates/admin-site-check.php:175
+msgid "Mod_Security Check"
+msgstr ""
+
+#: src/templates/admin-site-check.php:176
+msgid "<span id=\"modsecurity_status\">Checking...</span> <br /><button id=\"modsecurity_recheck\">Re-check</button>    "
+msgstr ""
+
+#: src/templates/admin-site-check.php:299
+#: src/templates/admin-site-check.php:324
+msgid "<strong style=\"color: red;\">Failed</strong><br /> Your site\\'s Tin Canny xAPI endpoint is unreachable. Try temporarily disabling any active maintenance or security plugins then refreshing this page. If the problem persists, contact us and let us know the following URL is unreachable:"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:70
+msgid "MySQL Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:74
+msgid "MariaDB Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:98
+msgid "Environment"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:100
+#: src/templates/admin-siteinfo.php:158
+#: src/templates/admin-siteinfo.php:259
+#: src/templates/admin-siteinfo.php:285
+msgid "Setting"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:101
+#: src/templates/admin-siteinfo.php:159
+#: src/templates/admin-siteinfo.php:260
+#: src/templates/admin-siteinfo.php:286
+msgid "Value"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:107
+msgid "Server info"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:132
+msgid "PHP Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:156
+msgid "WordPress Settings"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:165
+msgid "WordPress address (URL)"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:169
+msgid "Site address"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:175
+msgid "WordPress Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:181
+msgid "Multisite"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:182
+#: src/templates/admin-siteinfo.php:215
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:36
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:61
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:86
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:111
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:203
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:229
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:325
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:357
+#: src/uncanny-tincan/classes/Admin/Metabox.php:125
+msgid "Yes"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:182
+#: src/templates/admin-siteinfo.php:215
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:44
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:69
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:94
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:119
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:211
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:237
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:331
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:365
+#: src/uncanny-tincan/classes/Admin/Metabox.php:126
+msgid "No"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:187
+msgid "Site Language"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:208
+msgid "Not defined"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:214
+msgid "Object Cache"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:226
+msgid "Active WordPress Plugins"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:228
+msgid "Plugin"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:229
+#: src/templates/admin-siteinfo.php:264
+msgid "Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:257
+msgid "LearnDash Settings"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:265
+#: src/templates/admin-siteinfo.php:269
+msgid "LearnDash not active"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:268
+msgid "DB Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:272
+msgid "Script Debug"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:273
+msgid "not defined"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:283
+msgid "PHP Settings"
+msgstr ""
+
+#. translators: %s formated max zip size
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:119
+msgctxt "Tin Canny Zip Uploader"
+msgid "The zip file you attempted to upload exceeds the maximum allowed size of %s MB."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:120
+msgctxt "Tin Canny Zip Uploader"
+msgid "Please cancel the upload and uncheck the \"Upload entire zip file\" checkbox, then try the upload again."
+msgstr ""
+
+#. translators: %1$s filename,  %2$d character count, %3$d max character length
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:122
+msgctxt "Tin Canny Zip Uploader"
+msgid "File name: %1$s is %2$d characters long and exceeds the %3$d character maximum length."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:123
+msgctxt "Tin Canny Zip Uploader"
+msgid "Scanning zip file"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:124
+msgctxt "Tin Canny Zip Uploader"
+msgid "No file selected"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:125
+msgctxt "Tin Canny Zip Uploader"
+msgid "Selected file is not a zip file."
+msgstr ""
+
+#. translators: %1$s module type,  %2$s Zip File Name
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:127
+msgctxt "Tin Canny Zip Uploader"
+msgid "Uploading %1$s Module - %2$s"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:128
+msgctxt "Tin Canny Zip Uploader"
+msgid "Unsupported"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:129
+msgctxt "Tin Canny Zip Uploader"
+msgid "Unknown"
+msgstr ""
+
+#. translators: %1$d number of files uploaded + 1,%2$d: total number of files
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:131
+msgctxt "Tin Canny Zip Uploader"
+msgid "Uploading file %1$d of %2$d"
+msgstr ""
+
+#. translators: %1$d number of files uploaded,%2$d: total number of files
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:133
+msgctxt "Tin Canny Zip Uploader"
+msgid "Uploaded %1$d of %2$d files"
+msgstr ""
+
+#. translators: %1$s: number and size uploaded, %2$s number and size total
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:135
+msgctxt "Tin Canny Zip Uploader"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:136
+msgctxt "Tin Canny Zip Uploader"
+msgid "Current file:"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:137
+msgctxt "Tin Canny Zip Uploader"
+msgid "Cancel Upload"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:139
+msgctxt "Tin Canny Zip Uploader"
+msgid "Upload started"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:140
+msgctxt "Tin Canny Zip Uploader"
+msgid "Upload complete"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:141
+msgctxt "Tin Canny Zip Uploader"
+msgid "Upload cancelled"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:142
+msgctxt "Tin Canny Zip Uploader"
+msgid "Upload error"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:143
+msgctxt "Tin Canny Zip Uploader"
+msgid "Loading..."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:144
+msgctxt "Tin Canny Zip Uploader"
+msgid "Errors"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:145
+msgctxt "Tin Canny Zip Uploader"
+msgid "File"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:146
+msgctxt "Tin Canny Zip Uploader"
+msgid "An unexpected response was received. Please check console error log by right clicking the page, choosing Inspect, and checking the Console tab."
+msgstr ""
+
+#. translators: %s: Full rest route URL
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:148
+msgctxt "Tin Canny Zip Uploader"
+msgid "Cloudflare Security / Firewall may be blocking the request. Please whitelist the Tin Canny REST route %s"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:149
+msgctxt "Tin Canny Zip Uploader"
+msgid "No response received from the server."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:150
+msgctxt "Tin Canny Zip Uploader"
+msgid "The server is unable to handle your request. Please contact your hosting administrator to confirm the allowed payload limit."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:152
+msgctxt "Tin Canny Zip Uploader"
+msgid "Unable to read .zip file. Please use the original zip file as exported from your elearning authoring tool."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:153
+msgctxt "Tin Canny Zip Uploader"
+msgid "Please note that any xAPI/SCORM statements sent by this module in its current state:"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:155
+msgctxt "Tin Canny Zip Uploader"
+msgid "will not be recorded"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:156
+msgctxt "Tin Canny Zip Uploader"
+msgid "may display errors because the module cannot communicate with an LMS or LRS"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:158
+msgctxt "Tin Canny Zip Uploader"
+msgid "Select an .html file"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:159
+msgctxt "Tin Canny Zip Uploader"
+msgid "To use this module anyway, select the .html file that launches the module using the file browser below:"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:160
+msgctxt "Tin Canny Zip Uploader"
+msgid "directory tree"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:350
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:360
+msgctxt "Tin Canny Zip Uploader"
+msgid "You do not have permissions to access this endpoint."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:376
+msgctxt "Tin Canny Zip Uploader"
+msgid "Invalid action."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:437
+msgid "No file uploaded."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:460
+msgid "Database error."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:487
+msgid "File uploaded."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:507
+msgctxt "Tin Canny Zip Uploader"
+msgid "Invalid Data unable to upload file."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:523
+msgctxt "Tin Canny Zip Uploader"
+msgid "Could not create directory structure"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:571
+msgctxt "Tin Canny Zip Uploader"
+msgid "File uploaded."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:576
+msgctxt "Tin Canny Zip Uploader"
+msgid "Error uploading file."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:606
+msgctxt "Tin Canny Zip Uploader"
+msgid "Error reading chunk data."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:610
+msgctxt "Tin Canny Zip Uploader"
+msgid "Error writing chunk data to target file."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:614
+msgctxt "Tin Canny Zip Uploader"
+msgid "File chunk uploaded."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:647
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:706
+msgctxt "Tin Canny Zip Uploader"
+msgid "Invalid data."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:653
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:712
+msgctxt "Tin Canny Zip Uploader"
+msgid "Directory does not exist."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:664
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:716
+msgctxt "Tin Canny Zip Uploader"
+msgid "Could not delete directory."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:676
+msgctxt "Tin Canny Zip Uploader"
+msgid "Database Error."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:682
+msgctxt "Tin Canny Zip Uploader"
+msgid "Could not rename directory."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:724
+msgctxt "Tin Canny Zip Uploader"
+msgid "Upload cancelled."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:750
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:766
+msgctxt "Tin Canny Zip Uploader"
+msgid "Module registered!"
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:755
+msgctxt "Tin Canny Zip Uploader"
+msgid "Invalid module type."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:763
+msgctxt "Tin Canny Zip Uploader"
+msgid "Error Registering Module."
+msgstr ""
+
+#: src/tincanny-zip-uploader/tincanny-zip-uploader.php:796
+msgctxt "Tin Canny Zip Uploader"
+msgid "There may be an issue with the current file or with your server file system permissions. Please cancel the current upload, check the \"Upload entire zip file\" checkbox and try again. If the issue persists, please send full details about what you were trying to do and what error you received to support@uncannyowl.com for further assistance."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/ManageContent.php:75
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:76
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:78
+msgid "Content"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/ManageContent.php:76
+msgid "Type"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/ManageContent.php:77
+msgid "Actions"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/MediaButton.php:90
+msgid "Add Tin Canny Media"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/MediaPopup.php:137
+msgid "File is not uploaded."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/MediaPopup.php:154
+msgid "File extension must be .zip."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/MediaPopup.php:180
+msgid "This file type is not supported."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/MediaPopup.php:194
+msgid "Something went wrong."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Admin/MediaPopup.php:200
+msgid "Something went wrong when setting up your database."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/FileSystem/NewFile.php:404
+msgid "Uploaded! Pick Options Below."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Shortcode.php:374
+msgid "The module you are trying to access does not exist."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Shortcode.php:505
+#: src/uncanny-articulate-and-captivate/classes/Shortcode.php:601
+msgid "Launch"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/Shortcode.php:786
+msgid "Failed to upload a file."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:77
+msgid "Item Name"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:84
+msgid "Embed Type"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:125
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:129
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:225
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:280
+msgid "Link / Button Text"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:135
+msgid "Button Image"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/classes/VisualComposer.php:145
+msgid "Nivo Transition"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:29
+msgid "Disable wp-admin dashboard widget"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:48
+msgid "This settings allows the wp-admin dashboard(admin home screen) reporting widget to be disabled."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:54
+msgid "Enable sorting by % complete"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:73
+msgid "The ability to sort by % Complete requires a very large amount of data be requested from the server, which will fail or cause poor performance on sites with many users. Disable this setting to improve the responsiveness of the reports."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:79
+msgid "Enable Tin Can Report on front end"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:98
+msgid "This setting enables the Tin Can Report tab when using the [tincanny] shortcode to display reports."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:104
+msgid "Enable xAPI Quiz Report on front end"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:123
+msgid "This setting enables the xAPI Quiz Report tab when using the [tincanny] shortcode to display reports."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:130
+msgid "User identifier(s)"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:137
+msgid "Display Name"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:173
+msgid "These options will show or hide columns in the user list of the Course report and the User reports."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:179
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:249
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:375
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:469
+msgid "Save Changes"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:188
+msgid "Tin Can/SCORM"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:196
+msgid "Capture Tin Can and SCORM data"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:215
+msgid "If you are uploading modules from a supported authoring tool (e.g. Storyline, Captivate) and want to capture data, turn this on."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:222
+msgid "Protect SCORM/Tin Can modules"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:241
+msgid "This setting adds a layer of basic protection to your modules to discourage users from attempting to access them directly (outside of your WordPress site). Disable this if you are experiencing module loading issues."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:242
+msgid "This feature is only supported on hosts that support mod_rewrite."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:259
+msgid "Mark Complete button"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:266
+msgid "Behavior"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:268
+msgid "Use these options to set the default behavior of the Mark Complete button in lessons and topics that contain embedded Tin Canny content. This setting can be overridden at the individual lesson/topic level."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:276
+msgid "<strong>Always Enabled:</strong> Mark Complete button is always enabled."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:285
+msgid "<strong>Disabled until complete:</strong> Mark Complete button is disabled until the learner completes the Tin Can module."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:294
+msgid "<strong>Hidden until complete:</strong> Mark Complete button is hidden until the learner completes the Tin Can module."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:303
+msgid "<strong>Hidden and autocomplete:</strong> Mark Complete button is hidden and the lesson/topic is automatically marked complete when the learner completes the Tin Can module. <b>Note:</b> With this option, you will need to provide a way for the user to progress to the next lesson or topic when the module has been completed."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:312
+msgid "<strong>Hidden and autoadvance:</strong> Mark Complete button is hidden, the lesson/topic is automatically marked complete and the learner is automatically advanced to the next lesson or topic when they complete the Tin Can module."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:320
+msgid "Enable compatibility mode"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:334
+msgid "Enables a slower method of recording xAPI statements and unlocking Mark Complete behaviors that works in a greater range of situations, including when statements are sent simultaneously with module closure."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:340
+msgid "Custom label"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:342
+msgid "Set a custom label on the Mark Complete button when a Tin Canny module is embedded in the lesson/topic."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:350
+msgid "Autocomplete Lessons and Topics even if Tin Canny content on page (Uncanny Toolkit Pro)"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:369
+msgid "When set to Yes, lessons and topics will be marked complete immediately upon page load, even when a Tin Canny module is present on the page. (Requires Uncanny LearnDash Toolkit Pro with Autocomplete Lessons and Topics module activated)"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:393
+msgid "Transition"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:407
+msgid "Default lightbox size"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:480
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:488
+msgid "Reset data"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:486
+msgid "Reset Tin Can data"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:490
+msgid "This will delete all Tin Can data. Use with caution!"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:495
+msgid "Reset xAPI Quiz data"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:497
+msgid "Reset Quiz Data"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:499
+msgid "This will delete all xAPI Quiz data.  Use with caution!"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:504
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:506
+msgid "Reset bookmark data"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:508
+msgid "This will delete all saved resume data for uploaded modules, forcing users to restart modules from the beginning."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:512
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:514
+msgid "Purge Experienced statements"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:516
+msgid "This will delete all saved xAPI statements with the \"Experienced\" verb."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:520
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:522
+msgid "Purge Answered statements"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/admin_options.php:524
+msgid "This will delete all saved xAPI statements with the \"Answered\" verb."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/content_library.php:3
+#: src/uncanny-articulate-and-captivate/views/vc_toggle.php:3
+msgid "Content Library"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/content_library.php:29
+msgid "Show"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/content_library.php:31
+msgid "Choose"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/content_library.php:34
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:288
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:72
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:93
+msgid "Delete"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:17
+msgid "Insert As"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:21
+msgid "iFrame"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:31
+msgid "Link that opens in a new window"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:38
+msgid "iFrame Size"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:68
+msgid "No Title"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:73
+msgid "With Title"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:83
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:180
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:235
+msgid "Link Text"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:88
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:185
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:240
+msgid "Small Size Button"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:93
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:190
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:245
+msgid "Medium Size Button"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:98
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:195
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:250
+msgid "Large Size Button"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:103
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:200
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:255
+msgid "Use custom image"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:111
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:208
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:263
+#: src/uncanny-articulate-and-captivate/views/media_upload_file.php:46
+msgid "Click to Upload"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:113
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:210
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:265
+msgid "No image selected."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:121
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:218
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:274
+msgid "Image URL"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:134
+msgid "Nivo Slider Transition"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:144
+msgid "Size Options"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:176
+msgid "Link that opens in a new window options"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:231
+msgid "Link that opens in a same window options"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/embed_information.php:287
+msgid "Insert Into Post"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:27
+msgid "Replace Content"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:32
+msgid "Please select one of the following options:"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:37
+msgid "Delete bookmark (resume) data only"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:41
+msgid "Delete all data"
+msgstr ""
+
+#. translators: %s: Delete all data link
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:51
+msgid "Note: When replacing a module, bookmark data must be deleted or the content may not load properly. If you prefer to delete all data, including saved xAPI statements, select %s"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:52
+msgid "Delete all data."
+msgstr ""
+
+#. translators: %1$s: Delete bookmark data link, %2$s: Delete all data link
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:64
+msgid "Are you sure you want to delete bookmark data? %1$s, %2$s"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:65
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:86
+msgid "Data will be deleted immediately"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:66
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:87
+msgid "even if you cancel the file replacement in the next step."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/manage_content.php:85
+msgid "Are you sure you want to delete all data? "
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/media_upload_file.php:3
+#: src/uncanny-articulate-and-captivate/views/vc_toggle.php:2
+msgid "Upload File"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/media_upload_file.php:28
+msgid "Please upload a zip file published from one of <a href=\"https://www.uncannyowl.com/knowledge-base/authoring-tools-supported/\" target=\"_blank\">the supported authoring tools.</a>"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/media_upload_file.php:48
+msgid "No file selected."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/media_upload_file.php:60
+msgid "Upload entire zip file"
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/media_upload_file.php:63
+msgid "Choose this option for faster uploads; it may not work in all environments or with large file sizes."
+msgstr ""
+
+#: src/uncanny-articulate-and-captivate/views/vc_choose_button.php:3
+msgid "Change File"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:152
+#: src/uncanny-reporting/quiz-module-reports.php:1105
+msgid "No data available in table"
+msgstr ""
+
+#. translators: %1$s is the start number, %2$s is the end number, and %3$s is the total number of entries
+#: src/uncanny-question-analysis-report/question-analysis-report.php:154
+#: src/uncanny-reporting/group-quiz-report.php:610
+#: src/uncanny-reporting/lesson-topic-reports.php:245
+#: src/uncanny-reporting/quiz-module-reports.php:1108
+msgctxt "%1$s is the start number, %2$s is the end number, and %3$s is the total number of entries"
+msgid "Showing %1$s to %2$s of %3$s entries"
+msgstr ""
+
+#. translators: %s is the total number of entries
+#. translators: %s is a number
+#: src/uncanny-question-analysis-report/question-analysis-report.php:157
+#: src/uncanny-reporting/group-quiz-report.php:618
+#: src/uncanny-reporting/lesson-topic-reports.php:253
+#: src/uncanny-reporting/quiz-module-reports.php:1116
+msgctxt "%s is a number"
+msgid "(filtered from %s total entries)"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:169
+#: src/uncanny-reporting/group-quiz-report.php:639
+#: src/uncanny-reporting/lesson-topic-reports.php:272
+#: src/uncanny-reporting/quiz-module-reports.php:1130
+msgid "activate to sort column ascending"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:170
+#: src/uncanny-reporting/group-quiz-report.php:640
+#: src/uncanny-reporting/lesson-topic-reports.php:273
+#: src/uncanny-reporting/quiz-module-reports.php:1131
+msgid "activate to sort column descending"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:198
+msgid "Question title"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:200
+msgid "Correct answer"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:202
+msgid "Times asked"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:203
+msgid "Average time (s)"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:233
+#: src/uncanny-reporting/quiz-module-reports.php:430
+#: src/uncanny-reporting/quiz-module-reports.php:677
+msgid "Please Log in to view the report."
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:241
+msgid "You do not have permission to view this report."
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:249
+msgid "You are not the admin of any group."
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:254
+msgid "There are no columns to display."
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:260
+msgid "You do not have access to any quizzes."
+msgstr ""
+
+#. translators: %s is the quiz label
+#. translators: %s: Group Label
+#. translators: %s is plural quizzes label
+#. translators: %s is the course label
+#. translators: %s is the lesson label
+#. translators: %s is the topic label
+#. translators: %s is the group label
+#. translators: %s is the type of report (lesson or topic)
+#: src/uncanny-question-analysis-report/question-analysis-report.php:327
+#: src/uncanny-reporting/group-quiz-report.php:779
+#: src/uncanny-reporting/group-quiz-report.php:941
+#: src/uncanny-reporting/lesson-topic-reports.php:290
+#: src/uncanny-reporting/lesson-topic-reports.php:303
+#: src/uncanny-reporting/lesson-topic-reports.php:316
+#: src/uncanny-reporting/templates/lesson-topic-report-filters.php:43
+#: src/uncanny-reporting/templates/lesson-topic-report-filters.php:70
+#: src/uncanny-reporting/templates/lesson-topic-report-filters.php:98
+msgid "Select a %s"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:358
+msgid "Start date"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:365
+msgid "End date"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:828
+msgid "Distractor"
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:880
+msgid "Please select a quiz first."
+msgstr ""
+
+#: src/uncanny-question-analysis-report/question-analysis-report.php:888
+msgid "There are no multiple choice questions in this quiz."
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:96
+msgid "Please log in to view the report."
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:102
+#: src/uncanny-reporting/group-quiz-report.php:1191
+msgid "Sorry, you do not have permission to view this report."
+msgstr ""
+
+#. translators: %s is the group label
+#. translators: %s is the label of the invalid parameter
+#: src/uncanny-reporting/group-quiz-report.php:324
+#: src/uncanny-reporting/group-quiz-report.php:376
+msgid "invalid %s id supplied"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:330
+#: src/uncanny-reporting/group-quiz-report.php:654
+#: src/uncanny-reporting/group-quiz-report.php:676
+msgid "No results"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:517
+#: src/uncanny-reporting/group-quiz-report.php:518
+#: src/uncanny-reporting/group-quiz-report.php:519
+msgid "Not Attempted"
+msgstr ""
+
+#. translators: %1$s is the number of results, %2$s is the quiz label
+#: src/uncanny-reporting/group-quiz-report.php:548
+msgid "%1$s user found for selected %2$s"
+msgid_plural "%1$s users found for selected %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the quiz label
+#: src/uncanny-reporting/group-quiz-report.php:569
+msgid "No users found for selected %s"
+msgstr ""
+
+#. translators: %s is a quiz label
+#: src/uncanny-reporting/group-quiz-report.php:591
+msgctxt "Quiz score"
+msgid "%s score"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:594
+msgid "Detailed report"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:630
+msgid "Search by username, name, email, date or score"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:631
+msgid "No quiz results found"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:644
+#: src/uncanny-reporting/lesson-topic-reports.php:367
+msgid "Customize columns"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:645
+#: src/uncanny-reporting/lesson-topic-reports.php:368
+msgid "Hide customize columns"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:648
+#: src/uncanny-reporting/lesson-topic-reports.php:277
+#: src/uncanny-reporting/quiz-module-reports.php:998
+msgid "CSV"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:649
+#: src/uncanny-reporting/lesson-topic-reports.php:278
+msgid "CSV export"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:650
+#: src/uncanny-reporting/lesson-topic-reports.php:279
+msgid "Excel"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:651
+#: src/uncanny-reporting/lesson-topic-reports.php:280
+msgid "Excel export"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:653
+msgid "All"
+msgstr ""
+
+#. translators: %1$s: group Label
+#: src/uncanny-reporting/group-quiz-report.php:764
+msgid "Any %1$s, including no %1$s"
+msgstr ""
+
+#. translators: %s: Plural Groups Label
+#. translators: %s: Group label
+#. translators: %s: Course label
+#. translators: %s: Courseslabel
+#: src/uncanny-reporting/group-quiz-report.php:796
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:48
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:87
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:50
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:89
+msgid "All %s"
+msgstr ""
+
+#. translators: %s: Plural Groups Label
+#: src/uncanny-reporting/group-quiz-report.php:821
+msgid "No %s"
+msgstr ""
+
+#. translators: %s is plural quizzes label
+#: src/uncanny-reporting/group-quiz-report.php:929
+msgid "No %s available"
+msgstr ""
+
+#: src/uncanny-reporting/group-quiz-report.php:1025
+msgid "No stats recorded"
+msgstr ""
+
+#: src/uncanny-reporting/lesson-topic-reports.php:225
+msgid "Time"
+msgstr ""
+
+#: src/uncanny-reporting/lesson-topic-reports.php:263
+msgid "Search by username, name, email or status"
+msgstr ""
+
+#: src/uncanny-reporting/lesson-topic-reports.php:284
+msgid "Incomplete"
+msgstr ""
+
+#. translators: %1$s is the group label, %2$s is the courses label
+#: src/uncanny-reporting/lesson-topic-reports.php:295
+msgid "Selected %1$s has no %2$s."
+msgstr ""
+
+#. translators: %1$s is the course label, %2$s is the lessons label
+#. translators: %1$s is the course label, %2$s is the topics label
+#: src/uncanny-reporting/lesson-topic-reports.php:308
+#: src/uncanny-reporting/lesson-topic-reports.php:321
+msgid "The selected %1$s has no %2$s."
+msgstr ""
+
+#. translators: %1$s is the course label, %2$s is the lesson label
+#. translators: %1$s is the course label, %2$s is the topic label
+#: src/uncanny-reporting/lesson-topic-reports.php:331
+#: src/uncanny-reporting/lesson-topic-reports.php:337
+msgid "Select a %1$s and %2$s for results"
+msgstr ""
+
+#. translators: %1$s is the courses label, %2$s is the group label
+#. translators: %1$s is the lessons label, %2$s is the course label
+#. translators: %1$s is the topics label, %2$s is the course label
+#: src/uncanny-reporting/lesson-topic-reports.php:344
+#: src/uncanny-reporting/lesson-topic-reports.php:350
+#: src/uncanny-reporting/lesson-topic-reports.php:356
+msgid "There are no %1$s associated with the selected %2$s."
+msgstr ""
+
+#. translators: %s is the course label
+#: src/uncanny-reporting/lesson-topic-reports.php:362
+msgid "There are no students enrolled in the selected %s."
+msgstr ""
+
+#: src/uncanny-reporting/lesson-topic-reports.php:477
+msgid "You must be a Group Leader or Administrator with access to at least one group to use this report."
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:73
+#: src/uncanny-reporting/quiz-module-reports.php:87
+#: src/uncanny-reporting/reporting-api.php:310
+msgid "You do not have the capability to view tincanny data."
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:104
+msgid "Essay Link Not Found"
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:112
+msgid "User ID Not Found"
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:134
+msgid "Essay answer not found."
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:153
+msgid "Sorry, Access Denied"
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:173
+msgid "Group ID not found."
+msgstr ""
+
+#. translators: %s is the "Course" label
+#: src/uncanny-reporting/quiz-module-reports.php:185
+msgctxt "%s is the \"Course\" label"
+msgid "%s ID not found."
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:462
+#: src/uncanny-reporting/quiz-module-reports.php:661
+#: src/uncanny-reporting/quiz-module-reports.php:666
+msgid "Invalid user set in address bar."
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:474
+msgid "This report is only accessible by group leader and administrators."
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:489
+msgid "Select a Group"
+msgstr ""
+
+#. translators: %s is the "Course" label
+#: src/uncanny-reporting/quiz-module-reports.php:515
+#: src/uncanny-reporting/quiz-module-reports.php:1137
+msgctxt "%s is the \"Course\" label"
+msgid "Select a %s"
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:612
+#: src/uncanny-reporting/quiz-module-reports.php:626
+#: src/uncanny-reporting/quiz-module-reports.php:1008
+#: src/uncanny-reporting/quiz-module-reports.php:1033
+#: src/uncanny-reporting/quiz-module-reports.php:1055
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:115
+msgid "Activity"
+msgstr ""
+
+#. translators: %s is the user's name
+#: src/uncanny-reporting/quiz-module-reports.php:988
+msgid "Activity Report for %s"
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:999
+msgid "PDF"
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:1133
+msgid "Select a student"
+msgstr ""
+
+#: src/uncanny-reporting/quiz-module-reports.php:1134
+msgid "No students available"
+msgstr ""
+
+#. translators: %s is the "Courses" label
+#: src/uncanny-reporting/quiz-module-reports.php:1142
+msgctxt "%s is the \"Courses\" label"
+msgid "No %s available"
+msgstr ""
+
+#: src/uncanny-reporting/reporting-api.php:990
+msgid "You do not have permission to access this information"
+msgstr ""
+
+#: src/uncanny-reporting/reporting-api.php:1004
+msgid "Group Leader has no groups assigned"
+msgstr ""
+
+#: src/uncanny-reporting/reporting-api.php:1514
+msgid "Invalid user ID"
+msgstr ""
+
+#: src/uncanny-reporting/reporting-api.php:1529
+msgid "We couldn't find an avatar."
+msgstr ""
+
+#. Translators: 1. number percentage
+#: src/uncanny-reporting/reporting-api.php:1719
+#: src/uncanny-reporting/reporting-api.php:2013
+msgid "%1$s%%"
+msgstr ""
+
+#: src/uncanny-reporting/reporting-api.php:1740
+msgid "Not Completed"
+msgstr ""
+
+#: src/uncanny-reporting/reporting-api.php:2045
+msgid "Not Found: "
+msgstr ""
+
+#: src/uncanny-reporting/reporting-api.php:2571
+msgid "Current User doesn't have permissions to Tin Can report data"
+msgstr ""
+
+#: src/uncanny-reporting/templates/course-report-tab.php:17
+#: src/uncanny-reporting/templates/user-report-tab.php:16
+msgid "Tin Canny Reports"
+msgstr ""
+
+#. Translators: 1:Course label
+#: src/uncanny-reporting/templates/course-report-tab.php:67
+msgid "%1$s Completions"
+msgstr ""
+
+#: src/uncanny-reporting/templates/course-report-tab.php:87
+msgctxt "%s is the \"Course\" label"
+msgid "%s Overview"
+msgstr ""
+
+#: src/uncanny-reporting/templates/course-report-tab.php:113
+msgctxt "%s is the \"Course\" label"
+msgid "%s Status"
+msgstr ""
+
+#: src/uncanny-reporting/templates/course-report-tab.php:130
+msgid "Enrolled Users"
+msgstr ""
+
+#: src/uncanny-reporting/templates/groups-drop-down.php:24
+msgid "All Users"
+msgstr ""
+
+#: src/uncanny-reporting/templates/groups-drop-down.php:39
+msgid "Filter"
+msgstr ""
+
+#: src/uncanny-reporting/templates/header.php:42
+msgid "xAPI Quiz Report"
+msgstr ""
+
+#. translators: %s is the group label
+#: src/uncanny-reporting/templates/lesson-topic-report-filters.php:31
+msgid "%s ( Optional )"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:22
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:21
+msgid "Filters"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:36
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:39
+msgid "User & Group"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:104
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:105
+msgid "All Modules"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:121
+msgid "All Actions"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:136
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:152
+msgid "Date Range"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:148
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:164
+msgid "All Dates"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:151
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:167
+msgid "Last Week"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:154
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:170
+msgid "Last Month"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:157
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:173
+msgid "Last 90 Days"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:160
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:176
+msgid "Last 3 Months"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:163
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:179
+msgid "Last 6 Months"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:172
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:188
+msgid "From"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:176
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:192
+msgid "Start Date"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:180
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:196
+msgid "End Date"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:192
+msgid "Search"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-tincan-filter.php:230
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:248
+msgid "Reset"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:116
+msgid "Quiz"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:136
+msgid "All Results"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:139
+msgid "Correct"
+msgstr ""
+
+#: src/uncanny-reporting/templates/tc-xapi-filter.php:142
+msgid "Incorrect"
+msgstr ""
+
+#: src/uncanny-reporting/templates/user-report-tab.php:57
+msgid "Profile"
+msgstr ""
+
+#: src/uncanny-reporting/templates/user-report-tab.php:75
+msgid "Overview"
+msgstr ""
+
+#: src/uncanny-reporting/templates/user-report-tab.php:101
+msgid "Progress Summary"
+msgstr ""
+
+#. Translators: 1:Course label
+#: src/uncanny-reporting/templates/user-report-tab.php:131
+msgid "User's %1$s List"
+msgstr ""
+
+#: src/uncanny-reporting/templates/user-report-tab.php:171
+#: src/uncanny-reporting/templates/user-report-tab.php:275
+msgid "Tin Can"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:103
+msgid "Tin Canny Settings"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:108
+#: src/uncanny-tincan/classes/Admin/Metabox.php:124
+msgid "Use Global Setting"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:109
+msgid "Always enabled"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:110
+msgid "Disabled until complete"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:111
+msgid "Hidden until complete"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:112
+msgid "Hidden and autocomplete"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:113
+msgid "Hidden and autoadvance"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:114
+msgid "Choose whether or not the Mark Complete button will be disabled until users complete all Tin Can modules on the page"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Admin/Metabox.php:118
+msgid "Comma separated Tin Canny verb(s). For result, you can enter the condition like <code>result > 80.</code>"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Init.php:72
+msgid "Permanently Delete Tin Can Data"
+msgstr ""
+
+#. translators: %1$s is "Update", and %2$s is "tin can data"
+#: src/uncanny-tincan/classes/Init.php:78
+msgctxt "%1$s is \"Update\", and %2$s is \"tin can data\""
+msgid "Check and click %1$s to delete all %2$s for this user."
+msgstr ""
+
+#. translators: %1$s is "Update", and %2$s is "tin can data"
+#. translators: %1$s is "Update", and %2$s is "bookmark data"
+#: src/uncanny-tincan/classes/Init.php:78
+#: src/uncanny-tincan/classes/Init.php:89
+msgid "Update"
+msgstr ""
+
+#. translators: %1$s is "Update", and %2$s is "tin can data"
+#: src/uncanny-tincan/classes/Init.php:78
+msgid "tin can data"
+msgstr ""
+
+#: src/uncanny-tincan/classes/Init.php:81
+#: src/uncanny-tincan/classes/Init.php:91
+msgid "This cannot be undone."
+msgstr ""
+
+#. translators: %1$s is "Update", and %2$s is "bookmark data"
+#: src/uncanny-tincan/classes/Init.php:89
+msgctxt "%1$s is \"Update\", and %2$s is \"bookmark data\""
+msgid "Check and click %1$s to delete all %2$s for this user."
+msgstr ""
+
+#. translators: %1$s is "Update", and %2$s is "bookmark data"
+#: src/uncanny-tincan/classes/Init.php:89
+msgid "bookmark data"
+msgstr ""
+
+#: tin-canny-learndash-reporting.php:100
+msgid "The %1$s requires PHP version %2$s or higher (5.6 or higher is recommended).Because you are using unsupported version of PHP (%3$s), the Reporting plugin will not initialize. Please contact your hosting company to upgrade to PHP 5.6 or higher."
+msgstr ""
+
+#: tin-canny-learndash-reporting.php:137
+msgid "The %1$s plugin requires %2$s version %3$s or greater. Your current version is %4$s."
+msgstr ""
+
+#: tin-canny-learndash-reporting.php:158
+msgid "Uncanny LearnDash Reporting requires LearnDash version %1$s or higher to work properly. Please make sure you have LearnDash version %2$s or higher installed. Your current version is: %3$s"
+msgstr ""
+
+#: tin-canny-learndash-reporting.php:175
+msgid "Uncanny LearnDash reporting requires LearnDash version %1$s or higher to work properly. Please make sure you have LearnDash version %2$s or higher installed."
+msgstr ""
+
+#: tin-canny-learndash-reporting.php:442
+msgid "Licensing"
+msgstr ""
+
+#: tin-canny-learndash-reporting.php:489
+msgid "Warning: Tin Canny Reporting for LearnDash requires LearnDash. Please install LearnDash before using the plugin."
+msgstr ""

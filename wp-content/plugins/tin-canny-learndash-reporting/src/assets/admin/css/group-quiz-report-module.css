@@ -1,0 +1,401 @@
+/**
+ * Global Group Quiz Report styles
+ */
+ .uo-group-quiz-report {
+	font-size: 15px;
+	position: relative;
+}
+
+.uo-group-quiz-report * {
+	box-sizing: border-box
+}
+
+.uo-group-quiz-report .uo-row {
+	width: 100%;
+}
+
+/**
+ * Dropdown Filters 
+ */
+.uo-group-quiz-report .uo-select {
+	width:100%;
+	display: inline-block;
+	position: relative;
+}
+
+.uo-group-quiz-report .uo-select label {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 3px;
+	margin-top: 7px;
+}
+
+.uo-group-quiz-report .uo-select button, 
+.uo-group-quiz-report .uo-select select {
+	background: #fff;
+	border: 1px solid #b7b7b7;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 6px 15px;
+	transition-duration: .1s;
+	transition-property: color,border-color;
+	transition-timing-function: linear;
+	width: 100%;
+}
+
+.uo-group-quiz-report .uo-select select.h3-select {
+	background: none !important;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 0;
+	padding-top: 0;
+	/*for firefox*/
+	-moz-appearance: none;
+	/*for chrome*/
+	-webkit-appearance: none;
+}
+
+/*for IE10*/
+.uo-group-quiz-report .uo-select select.h3-select::-ms-expand {
+	display: none;
+}
+
+/**
+ * Data Table
+ */
+.uo-group-quiz-report-table {
+	margin-top: 15px;
+	position: relative;
+}
+
+.uo-group-quiz-report .uotc-datatable-header {
+	display:block;
+	position: relative;
+	margin-top:15px;
+}
+
+.uo-group-quiz-report .uotc-datatable-header .dt-buttons{
+	display: block;
+	width: 100%;
+	margin-top: 15px;
+}
+
+/**
+ * Search
+ */
+.uo-group-quiz-report .dataTables_filter {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	float: left;
+	margin: 10px 0;
+}
+
+.uo-group-quiz-report .dataTables_filter label {
+	display: block;
+	margin:0;
+}
+
+.uo-group-quiz-report .dataTables_filter label::before {
+	content: "";
+	display: block;
+	background-image: url("data:image/svg+xml,%3Csvg aria-labelledby='title desc' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19.9 19.7'%3E%3Cg class='search-path' fill='none' stroke='%23000'%3E%3Cpath stroke-linecap='square' d='m18.5 18.3-5.4-5.4'/%3E%3Ccircle cx='8' cy='8' r='7'/%3E%3C/g%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.uo-group-quiz-report .dataTables_filter input[type="search"] {
+	background: #fff;
+	border: 1px solid #b7b7b7;
+	border-radius: 3px;
+	font-family: inherit;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 8px 20px 8px 40px;
+	width: 100%;
+}
+
+.uo-group-quiz-report .buttons-csv, 
+.uo-group-quiz-report .buttons-excel, 
+.uo-group-quiz-report a.paginate_button{
+	background: #f9fafb;
+	border: 1px solid #b7b7b7;
+	border-radius: 3px;
+	color: #000;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1;
+	padding: 6px 15px;
+	text-decoration: none;
+	text-transform: none;
+	transition-duration: .1s;
+	transition-property: color,border-color;
+	transition-timing-function: linear;
+}
+
+/**
+ * Customize Columns
+ */
+.uo-group-quiz-report .dataTables-filter-columns {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+	user-select: none;
+	width: 100%
+}
+
+.uo-group-quiz-report .dataTables-filter-columns-field {
+	display: none !important
+}
+
+.uo-group-quiz-report .dataTables-filter-columns__fields {
+	display: none
+}
+
+.uo-group-quiz-report .dataTables-filter-columns__fields,
+.uo-group-quiz-report .dataTables-filter-columns__toggle {
+	width: 100%
+}
+
+.uo-group-quiz-report .dataTables-filter-columns__fields label {
+	padding-right: 10px
+}
+
+.uo-group-quiz-report .dataTables-filter-columns__fields label input {
+	margin-right: 5px
+}
+
+.uo-group-quiz-report .dataTables-filter-columns-field:checked~.dataTables-filter-columns__fields {
+	display: block
+}
+
+.uo-group-quiz-report .dataTables-filter-columns__toggle label {
+	color: #00e;
+	cursor: pointer;
+	display: inline-block
+}
+
+.uo-group-quiz-report .dataTables-filter-columns__toggle label:hover {
+	text-decoration: underline
+}
+
+.uo-group-quiz-report .dataTables-filter-columns-field:not(:checked)~.dataTables-filter-columns__toggle label:before {
+	content: attr(data-label-enable)
+}
+
+.uo-group-quiz-report .dataTables-filter-columns-field:checked~.dataTables-filter-columns__toggle label:before {
+	content: attr(data-label-disable)
+}
+
+/**
+ * Table
+ */
+.uo-group-quiz-report table {
+	border: 0;
+	border-radius: 3px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.uo-group-quiz-report table * {
+	line-height: 1;
+}
+
+.uo-group-quiz-report table thead tr{
+	background-color: #5f19aa;
+	color: #ffffff;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table th{
+	font-size: 15px;
+	font-weight: 400;
+	height: auto;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table td, 
+.uo-group-quiz-report .uo-group-quiz-report-table th{
+	border: 0;
+	line-height: 1;
+	padding: 10px 5px;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table thead .sorting {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") !important;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table thead .sorting_asc {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 15 12 9 18 15'/%3E%3C/svg%3E") !important;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table td{
+	font-size:14px;
+	vertical-align: top;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table tbody tr.even,
+.uo-group-quiz-report .uo-group-quiz-report-table tbody tr.even td{
+	background: #f2f2f2;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table>tbody>tr>td.child {
+	padding-left: 30px!important;
+}
+
+.uo-group-quiz-report .uo-group-quiz-report-table>tbody>tr>td.child .user_statistic .statistic_icon{
+	display: inline-block;
+	margin-bottom: -6px;
+}
+
+/**
+* Label Loading Animation
+*/
+.uo-group-quiz-report .label-loading::after{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='25' cy='25' r='20' fill='none' stroke='black' stroke-width='2' stroke-dasharray='31.4 94.2'%3E%3Canimate attributeName='stroke-dashoffset' values='0;-125.6' dur='1s' repeatCount='indefinite' /%3E%3C/circle%3E%3C/svg%3E");
+}
+
+/**
+* Table Loading Animation
+*/
+.uo-group-quiz-report .reporting-status-loading-animation-wrap {
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.uo-group-quiz-report .reporting-status {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1000;
+	line-height: 1;
+	font-size: 12px;
+	font-weight: 600;
+	display: flex;
+}
+
+.uo-group-quiz-report .reporting-status__icon {
+	width: 30px;
+	font-size: 16px;
+	color: #fff;
+	background: #f5ba05;
+	position: relative;
+}
+
+.uo-group-quiz-report .reporting-status__icon:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.uo-group-quiz-report .reporting-status--loading .reporting-status__icon {
+	background: #0290c2;
+}
+
+.uo-group-quiz-report .reporting-status--loading .reporting-status__icon:before {
+	content: '';
+	width: 16px;
+	height: 16px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjAiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB4bWw6c3BhY2U9InByZXNlcnZlIj48Zz48cGF0aCBkPSJNNzUuNCAxMjYuNjNhMTEuNDMgMTEuNDMgMCAwIDEtMi4xLTIyLjY1IDQwLjkgNDAuOSAwIDAgMCAzMC41LTMwLjYgMTEuNCAxMS40IDAgMSAxIDIyLjI3IDQuODdoLjAyYTYzLjc3IDYzLjc3IDAgMCAxLTQ3LjggNDguMDV2LS4wMmExMS4zOCAxMS4zOCAwIDAgMS0yLjkzLjM3eiIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIxIi8+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGZyb209IjAgNjQgNjQiIHRvPSIzNjAgNjQgNjQiIGR1cj0iMTgwMG1zIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlVHJhbnNmb3JtPjwvZz48L3N2Zz4=) center center no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.uo-group-quiz-report .reporting-status__text {
+	color: #fff;
+	background: #35393c;
+	padding: 8px 10px;
+	white-space: nowrap;
+}
+
+/**
+ * Tablet
+ */
+@media screen and (min-width: 500px) {
+	.uo-group-quiz-report .uotc-datatable-header {
+		display: flex;
+	}
+	
+	.uo-group-quiz-report .uotc-datatable-header .dataTables_length{
+		text-align: left;
+		flex: 0 0 40%;
+	}
+
+	.uo-group-quiz-report .uotc-datatable-header .dt-buttons{
+		text-align: right;
+		margin-top: 0;
+		flex: 0 0 60%;
+	}
+}
+
+/**
+ * Desktop
+ */
+@media screen and (min-width: 769px) {
+
+	/**
+	 * Dropdown Filters 
+	*/
+	.uo-group-quiz-report .uotc-report-select-filters{
+		display: flex;
+		margin: 0 -10px;
+		width: 100%;
+	}
+
+	.uo-group-quiz-report .uotc-report-select-filters > .uotc-report-select-filter {
+		flex: 0 0 50%;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 15px;
+	}
+
+	.uo-group-quiz-report .uo-select button,
+	.uo-group-quiz-report .uo-select select{
+		width: calc( 100% - 20px );
+	}
+}
